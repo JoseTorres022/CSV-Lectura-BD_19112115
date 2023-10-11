@@ -23,3 +23,7 @@ cursor=conexion.cursor()
 @app.route('/carga_csv', methods=['POST'])
 def carga():
     print()
+
+
+def menu():
+    print
